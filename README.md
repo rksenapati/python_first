@@ -47,3 +47,35 @@ Iterates from 0 to 50 using range(0, 51).
 Adds each number in the range to the counter.
 
 Prints the final sum.
+
+Assignment 3
+---------------
+
+Task 1
+Factorial Calculator Using Recursion
+This script calculates the factorial of a given number using a recursive function.
+
+Prompts the user to input a number.
+
+Defines a recursive function factorial(n):
+
+If n is less than 2, it returns 1 (base case).
+
+Otherwise, it returns n * factorial(n-1).
+
+Calls the factorial() function with the input and prints the result.
+
+Task 2
+
+Mathematical Functions using the math Module
+This script performs several mathematical calculations on a user-provided number using the math module.
+
+Prompts the user to enter a number.
+
+Calculates and displays:
+
+Square root using math.sqrt()
+
+Natural logarithm (base e) using math.log()
+
+Sine value (in radians) using math.sin()
