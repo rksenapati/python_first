@@ -79,3 +79,49 @@ Square root using math.sqrt()
 Natural logarithm (base e) using math.log()
 
 Sine value (in radians) using math.sin()
+
+Assignment 4
+-------------
+Task 1
+Safe File Reading with Error Handling
+This program attempts to open and read a file named sample.txt, printing its contents line by line. It also includes error handling to gracefully manage missing files.
+
+🔧 Functionality:
+Uses a try-except block to catch errors.
+
+Opens the file in read mode ("r") using a with statement to ensure proper closure.
+
+Uses readlines() to read all lines and iterates through them using a for loop.
+
+Prints each line exactly as it appears in the file.
+
+If the file does not exist, it prints a user-friendly error message:
+"Error: 'sample.txt' not found."
+
+Task 2
+
+Full File Workflow: Write, Append, and Read
+This program demonstrates a complete file handling workflow in Python using output.txt. It includes writing initial content, appending additional content, and finally reading and displaying the file contents.
+
+🔧 Functionality:
+Write to File ('w' mode)
+
+Prompts the user for input.
+
+Writes the text to output.txt (overwrites existing content).
+
+Confirms successful write.
+
+Append to File ('a' mode)
+
+Prompts for additional input.
+
+Appends the new text to the same file.
+
+Confirms successful append.
+
+Read from File ('r' mode)
+
+Opens output.txt in read mode.
+
+Reads all lines using readlines() and prints each line.
