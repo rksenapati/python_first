@@ -125,3 +125,38 @@ Read from File ('r' mode)
 Opens output.txt in read mode.
 
 Reads all lines using readlines() and prints each line.
+
+Assignment 5
+------------
+Task 1
+=======
+This Python program is a simple student mark lookup system using a dictionary.
+
+ Functionality:
+The program defines a dictionary called studentLists that stores student names as keys and their marks as values.
+
+It prompts the user to input a student's name.
+
+It checks if the entered name exists in the dictionary:
+
+ If the name is found, it displays the student's marks.
+
+ If the name is not found, it prints a message indicating that the student name was not found.
+
+
+Task 2
+=======
+This Python program demonstrates list slicing and reversing operations.
+
+ Functionality:
+It initializes a list of numbers from 1 to 10.
+
+It extracts the first five elements of the list using slicing.
+
+It creates a copy of the extracted list and reverses it using the reverse() method.
+
+Finally, it prints both:
+
+The extracted list
+
+The reversed version of that list
